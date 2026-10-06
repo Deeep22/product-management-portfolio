@@ -95,6 +95,10 @@ function renderLinks(links = {}) {
     const value = (links[key] || "").trim();
     if (!value) return;
     anchor.href = key === "email" && !value.startsWith("mailto:") ? `mailto:${value}` : value;
+    if (key === "resume") {
+      anchor.target = "_blank";
+      anchor.rel = "noreferrer";
+    }
   });
 }
 
