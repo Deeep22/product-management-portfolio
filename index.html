@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Management Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <script>
+      try {
+        if (localStorage.getItem("portfolio-theme") === "dark") {
+          document.documentElement.dataset.theme = "dark";
+        }
+      } catch (error) {}
+    </script>
+    <link rel="stylesheet" href="styles.css?v=deep19" />
+  </head>
+  <body>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" aria-pressed="false">
+      <svg class="flower-day" viewBox="0 0 64 64" aria-hidden="true">
+        <g fill="#F4A8C4">
+          <ellipse cx="32" cy="16" rx="10" ry="14"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(60 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(120 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(180 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(240 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(300 32 32)"/>
+        </g>
+        <circle cx="32" cy="32" r="10" fill="#F6D35A"/>
+        <circle cx="29" cy="30" r="1.6" fill="#3a2a10"/>
+        <circle cx="35" cy="30" r="1.6" fill="#3a2a10"/>
+        <path d="M28.5 35.5c2 2.4 5 2.4 7 0" fill="none" stroke="#3a2a10" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <svg class="flower-night" viewBox="0 0 64 64" aria-hidden="true">
+        <g fill="#9B8CDB">
+          <ellipse cx="32" cy="16" rx="10" ry="14"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(60 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(120 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(180 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(240 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(300 32 32)"/>
+        </g>
+        <circle cx="32" cy="32" r="10" fill="#F3EEE8"/>
+        <path fill="#C9B8E8" d="M36 27.5a5.5 5.5 0 1 1-6.4 7.4 4.6 4.6 0 1 0 6.4-7.4z"/>
+      </svg>
+    </button>
+    <main class="page">
+      <section class="bento" aria-label="Portfolio">
+        <button class="tile tile-avatar" type="button" aria-label="Say hi" data-avatar>
+          <span class="tooltip" data-tooltip>hey, that's me. welcome to my portfolio</span>
+          <span class="bubble" aria-hidden="true"><span data-greeting>Hi!</span></span>
+          <span class="figure">
+            <img class="pose pose-idle" src="public/avatar-idle.jpg" alt="" />
+            <img class="pose pose-wave" src="public/avatar-wave.jpg" alt="" aria-hidden="true" />
+          </span>
+        </button>
+
+        <a class="tile tile-work" href="work.html">
+          <img class="work-art" src="public/my-work.jpg" alt="" />
+          <h2>My work</h2>
+        </a>
+
+        <article class="tile tile-philosophy">
+          <h2 data-leadership-title>Leadership philosophy</h2>
+          <p data-leadership-body>
+            I lead by example, listen before I speak, and see my job as clearing the path — not having all the answers.
+          </p>
+        </article>
+
+        <nav class="tile tile-links" aria-label="Links">
+          <ul>
+            <li>
+              <a data-link="linkedin" href="https://www.linkedin.com/in/deep-kaur-779479202/" target="_blank" rel="noreferrer">
+                <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect width="24" height="24" rx="4" fill="#0A66C2"/>
+                  <path fill="#fff" d="M7.15 9.25H4.9V19h2.25V9.25zM6.02 5.1A1.32 1.32 0 1 0 6 7.73a1.32 1.32 0 0 0 .02-2.63zM19.1 12.4c0-2.62-1.4-4.3-3.47-4.3-1.6 0-2.31.88-2.71 1.5V9.25H10.7c.03.64 0 9.75 0 9.75h2.22v-5.45c0-.29.02-.58.11-.79.24-.58.78-1.18 1.7-1.18 1.2 0 1.68.9 1.68 2.22V19H19.1v-6.6z"/>
+                </svg>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a data-link="github" href="https://github.com/Deeep22" target="_blank" rel="noreferrer">
+                <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <circle cx="12" cy="12" r="12" fill="#181717"/>
+                  <path fill="#fff" d="M12 5.2c-3.76 0-6.8 3.05-6.8 6.82 0 3.01 1.95 5.57 4.66 6.47.34.06.46-.15.46-.33 0-.16-.01-.6-.01-1.17-1.9.41-2.3-.91-2.3-.91-.31-.79-.76-1-.76-1-.62-.42.05-.41.05-.41.68.05 1.04.7 1.04.7.61 1.04 1.59.74 1.98.56.06-.44.24-.74.43-.91-1.51-.17-3.1-.76-3.1-3.38 0-.75.27-1.35.7-1.83-.07-.17-.3-.86.07-1.8 0 0 .57-.18 1.87.7a6.5 6.5 0 0 1 3.41 0c1.3-.88 1.87-.7 1.87-.7.37.94.14 1.63.07 1.8.44.48.7 1.08.7 1.83 0 2.63-1.6 3.2-3.12 3.37.24.21.46.62.46 1.26 0 .91-.01 1.64-.01 1.86 0 .18.12.4.46.33 2.7-.9 4.65-3.46 4.65-6.47 0-3.77-3.04-6.82-6.8-6.82z"/>
+                </svg>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a data-link="email" href="mailto:deepk7148@gmail.com">
+                <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <rect width="24" height="24" rx="5" fill="#fff" stroke="#DADCE0"/>
+                  <path fill="#EA4335" d="M4 7v10l5.5-4.2V10.4z"/>
+                  <path fill="#34A853" d="M20 7v10l-5.5-4.2V10.4z"/>
+                  <path fill="#FBBC05" d="M4 17h16v-3.2L12 18.2 4 13.8z"/>
+                  <path fill="#4285F4" d="M4 7h16L12 13.2 4 7z"/>
+                </svg>
+                Email
+              </a>
+            </li>
+            <li>
+              <a data-link="resume" href="#">
+                <svg class="link-icon" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="#E5252A" d="M6 2h8l6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/>
+                  <path fill="#fff" d="M14 2.4V8h5.4L14 2.4z"/>
+                  <path fill="#fff" d="M8 12.2h8v1.3H8v-1.3zm0 2.5h8v1.3H8v-1.3zm0-5h4.2v1.3H8V9.7z"/>
+                </svg>
+                Resume
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <a class="tile tile-about" href="about.html">
+          <p class="eyebrow">About</p>
+          <h1>I'm Deep, a product manager.</h1>
+          <p>
+            Based in Calgary. I build products that turn messy, manual workflows
+            into tools people actually use. I'm an IIT Guwahati CS grad, and I
+            test new AI tools constantly rather than just reading about them.
+          </p>
+        </a>
+
+        <a class="tile tile-education" href="education.html">
+          <p class="eyebrow">Education</p>
+          <h2>Education &amp; certifications</h2>
+        </a>
+      </section>
+    </main>
+    <script src="app.js?v=deep11"></script>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+{
+  "name": "Deep Kaur",
+  "role": "Product Manager",
+  "location": "Calgary, Alberta",
+  "tagline": "I turn ambiguous problems into shipped products, with AI and data at the core.",
+  "greeting": "Hi!",
+  "photoTooltip": "hey, that's me. welcome to my portfolio",
+  "about": "I'm a product manager with 2 years of experience taking products from messy problem to production. At PCL, I led an AI-powered reporting suite from discovery to launch, adopted by 10,000+ users within 3 months and cutting manual reporting time by 80%. I also owned Oracle Cloud ERP and HCM delivery across 5+ enterprise clients.\n\nI work from the user problem first: structured discovery, clear PRDs, and prioritization with frameworks like RICE, MoSCoW, and Value vs. Effort. I can also write the SQL, read the data, and brief senior stakeholders, so I can work closely with engineering and keep the roadmap realistic. I test new AI tools hands-on instead of just reading about them.\n\nHow I think about product: start with the problem and validate it before building. Prioritize with a framework, and know when to override it to protect core value. Measure adoption, not just delivery.",
+  "experience": [
+    {
+      "title": "Business Development Representative",
+      "company": "Wesland",
+      "dates": "Sep 2026 — present",
+      "location": "Calgary, AB",
+      "bullets": [
+        "Run face-to-face discovery with Calgary SMB owners to understand where their payment setup breaks down.",
+        "Handle objections by finding the cause (cost, switching risk, trust) and tailor each pitch to the business’s workflow."
+      ]
+    },
+    {
+      "title": "Client & Partnership Lead",
+      "company": "The Maverick Me Foundation",
+      "dates": "Mar 2026 — Sep 2026",
+      "location": "Calgary, AB",
+      "bullets": [
+        "Redesigned intake-to-follow-up, cutting client response time from 1–2 weeks to 2 days.",
+        "Booked 50+ meetings and closed 4–5 corporate partnerships per month."
+      ]
+    },
+    {
+      "title": "Product Owner",
+      "company": "PCL",
+      "dates": "Oct 2024 — Feb 2026",
+      "location": "Ahmedabad, India",
+      "bullets": [
+        "Led discovery to launch of an AI-powered reporting suite: a natural-language-to-report engine and an ML-based Excel column-matching model (Python, Flask). Result: 80% less manual reporting time, adopted by 10,000+ users within 3 months.",
+        "Built REST APIs for real-time data access and shipped both products with engineering over competing roadmap items.",
+        "Owned Oracle Cloud ERP and HCM delivery across 5+ enterprise clients, including access-control and governance decisions that shaped daily workflows.",
+        "Used Value vs. Effort and adoption metrics to drive 4–6 roadmap decisions per quarter, lifting feature adoption by 15%.",
+        "Managed UK-based senior stakeholders through executive briefs and ran daily Scrum and sprint planning."
+      ]
+    },
+    {
+      "title": "Research Analyst",
+      "company": "PCL",
+      "dates": "Jun 2024 — Sep 2024",
+      "location": "Ahmedabad, India",
+      "bullets": [
+        "Configured Oracle HCM across 5+ client implementations.",
+        "Built custom OTBI reports and SQL dashboards that turned complex HR data into decision-ready insights.",
+        "Coordinated UAT and migrated data for 1,500+ employee records.",
+        "Gathered requirements and achieved a 95% client satisfaction rate."
+      ]
+    }
+  ],
+  "leadership": {
+    "title": "Leadership philosophy",
+    "body": "I stay curious before I judge, and I'd rather be clear than clever. When things get messy, I stay calm, break the problem into small steps, and start with the one in front of me. I listen first and own my mistakes."
+  },
+  "education": [
+    {
+      "school": "IIT Guwahati",
+      "degree": "B.Tech, Computer Science and Engineering",
+      "dates": "2020 — 2024",
+      "highlights": [
+        "Strong foundation in computer science, algorithms, and software engineering.",
+        "Technical fluency in Python, SQL, and REST APIs that translated into product and data work.",
+        "Analytical, problem-solving approach later applied to product discovery and prioritization."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AI Fluency: Framework and Foundations",
+      "issuer": "Anthropic",
+      "year": "",
+      "image": "public/work/ai-fluency.png"
+    },
+    {
+      "name": "Claude 101",
+      "issuer": "Anthropic",
+      "year": "",
+      "image": "public/work/claude-101.png"
+    },
+    {
+      "name": "Oracle Fusion AI Agent Studio Certified Foundations Associate",
+      "issuer": "Oracle University",
+      "year": "Sep 2025",
+      "image": "public/work/oracle-ai-agent.png"
+    },
+    {
+      "name": "Machine Learning and Artificial Intelligence",
+      "issuer": "IITG.ai Club, IIT Guwahati",
+      "year": "",
+      "image": "public/work/iitg-ml.png"
+    }
+  ],
+  "skills": {
+    "Product": "Product Discovery, User Research, PRD Writing, Roadmapping, MVP Definition, Backlog Prioritization (RICE, MoSCoW, Value vs. Effort), Stakeholder Management, A/B Testing",
+    "Delivery": "Scrum, Sprint Planning, User Stories, UAT, Cross-Functional Collaboration",
+    "Data and AI": "SQL, Python, REST APIs, KPI and Metrics Tracking, Tableau, Power BI, Metabase, Google Analytics, Machine Learning",
+    "Tools": "Jira, Confluence, Figma, Oracle Cloud ERP/HCM, MySQL"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/deep-kaur-779479202/",
+    "github": "https://github.com/Deeep22",
+    "email": "deepk7148@gmail.com",
+    "resume": ""
+  },
+  "projects": [
+    {
+      "title": "Spotify: Product Lifecycle Analysis",
+      "year": "Case study",
+      "summary": "Applied Atlassian's Product Lifecycle framework to Spotify's public disclosures to decide where the product stands and what a PM should investigate next.",
+      "problem": "Spotify has 777M users. Growth alone is no longer the question. The question is how to earn more without hurting the experience.",
+      "approach": "Segmented users and mapped the business model. Placed Spotify in the Maintenance and Optimization stage. Kept facts and my analysis clearly separate.",
+      "insight": "Prioritized monetizing highly engaged users. Chose to validate first instead of building.",
+      "outcome": "A validation plan with interviews, data analysis, and experiments. Success metric is Premium or add-on conversion. Guardrails are engagement and retention.",
+      "links": [
+        {
+          "label": "View case study",
+          "href": "https://deeep22.github.io/Spotify---Product-Lifecycle-Analysis/"
+        }
+      ]
+    },
+    {
+      "title": "LinkedIn: Job Seeker Experience",
+      "year": "Case study",
+      "summary": "Outside-in analysis of the gap between applying and hearing back, with a first-hand data log, prioritized solution options, and a research plan.",
+      "problem": "Early-career candidates can't tell if a role is realistic. They also hear nothing after applying, so they have no signal on what to change.",
+      "approach": "Mapped the job seeker journey. Focused on two stages: evaluating fit and waiting. Logged 20 of my own applications. Only 2 showed any update beyond \"Applied\".",
+      "insight": "Scored six options with RICE. Recommended an MVP with a freshness signal and a status view with fallback states.",
+      "outcome": "A Figma wireframe, success metrics with guardrails, and a research plan. Interviews are still to come.",
+      "links": [
+        {
+          "label": "View case study",
+          "href": "https://deeep22.github.io/LinkedIn-application-clarity-for-early-career-job-seekers-and-career-switchers/"
+        }
+      ]
+    },
+    {
+      "title": "Fair Share: Product Discovery and Prototyping",
+      "year": "Prototype",
+      "summary": "Competitive analysis, then validated the problem before building an interactive prototype.",
+      "problem": "Competitors deliberately ignored household fairness, leaving a clear market gap.",
+      "approach": "Competitive analysis, then validated the problem statement before building anything.",
+      "insight": "Prioritized features with RICE, then deliberately overrode the score to protect the product’s core value.",
+      "outcome": "A self-QA’d, interactive prototype.",
+      "links": [
+        {
+          "label": "View prototype",
+          "href": "https://fair-share-52351475.figma.site/"
+        },
+        {
+          "label": "View case study",
+          "href": "https://deeep22.github.io/Fair-Share/"
+        }
+      ]
+    },
+    {
+      "title": "Lineitem: B2B SaaS Spend Visibility PRD",
+      "year": "PRD",
+      "summary": "Defined personas, a North Star metric, and an MVP from 14+ candidate features for B2B SaaS spend visibility.",
+      "problem": "B2B teams lack visibility and governance over SaaS spend, while buyers want autonomy.",
+      "approach": "Defined three personas and set a North Star metric that balances governance against buyer autonomy.",
+      "insight": "Prioritized an MVP from 14+ candidate features using MoSCoW and RICE, then mapped it to 6 epics and 9 user stories.",
+      "outcome": "Identified 8 cross-functional risks, each with a mitigation.",
+      "links": [
+        {
+          "label": "View PRD",
+          "href": "https://deeep22.github.io/SaaS-Spend-Visibility-PRD/"
+        }
+      ]
+    },
+    {
+      "title": "From Presale to Packed House: Product Planning (Send Science)",
+      "year": "Product planning",
+      "summary": "Turned one feature idea into an epic with six shippable user stories, based on what stage the business was in.",
+      "problem": "Send Science's site is presale. No gym is open yet. Interested visitors can lose interest before opening day — that is where early excitement and money leak away.",
+      "approach": "Read the live site closely. Inferred the stage the business is in. Chose one epic: founding member conversion and engagement.",
+      "insight": "Skipped training features. No members exist yet to use them. Focused on keeping members engaged until the gym opens.",
+      "outcome": "One epic split into six stories, each with acceptance criteria. Stories cover signup, status page, progress updates, referrals, raffle tracking, and engagement nudges.",
+      "links": [
+        {
+          "label": "View project",
+          "href": "https://deeep22.github.io/Filing-the-unfiled---Product-Planning/"
+        }
+      ]
+    }
+  ]
+}

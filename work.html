@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <script>
+      try {
+        if (localStorage.getItem("portfolio-theme") === "dark") {
+          document.documentElement.dataset.theme = "dark";
+        }
+      } catch (error) {}
+    </script>
+    <link rel="stylesheet" href="styles.css?v=deep19" />
+  </head>
+  <body class="subpage subpage-work">
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" aria-pressed="false">
+      <svg class="flower-day" viewBox="0 0 64 64" aria-hidden="true">
+        <g fill="#F4A8C4">
+          <ellipse cx="32" cy="16" rx="10" ry="14"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(60 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(120 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(180 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(240 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(300 32 32)"/>
+        </g>
+        <circle cx="32" cy="32" r="10" fill="#F6D35A"/>
+        <circle cx="29" cy="30" r="1.6" fill="#3a2a10"/>
+        <circle cx="35" cy="30" r="1.6" fill="#3a2a10"/>
+        <path d="M28.5 35.5c2 2.4 5 2.4 7 0" fill="none" stroke="#3a2a10" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <svg class="flower-night" viewBox="0 0 64 64" aria-hidden="true">
+        <g fill="#9B8CDB">
+          <ellipse cx="32" cy="16" rx="10" ry="14"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(60 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(120 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(180 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(240 32 32)"/>
+          <ellipse cx="32" cy="16" rx="10" ry="14" transform="rotate(300 32 32)"/>
+        </g>
+        <circle cx="32" cy="32" r="10" fill="#F3EEE8"/>
+        <path fill="#C9B8E8" d="M36 27.5a5.5 5.5 0 1 1-6.4 7.4 4.6 4.6 0 1 0 6.4-7.4z"/>
+      </svg>
+    </button>
+    <header class="story-bar">
+      <a class="back" href="index.html">Home</a>
+      <p class="eyebrow">My work</p>
+    </header>
+    <main class="story">
+      <h1>Projects</h1>
+      <p class="lede">Product work from problem to shipped.</p>
+      <div class="project-board" data-project-board></div>
+    </main>
+    <script src="app.js?v=deep11"></script>
+  </body>
+</html>
