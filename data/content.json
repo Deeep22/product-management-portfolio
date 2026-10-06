@@ -74,25 +74,25 @@
       "name": "AI Fluency: Framework and Foundations",
       "issuer": "Anthropic",
       "year": "",
-      "image": "public/work/ai-fluency.png"
+      "image": "assets/work/ai-fluency.png"
     },
     {
       "name": "Claude 101",
       "issuer": "Anthropic",
       "year": "",
-      "image": "public/work/claude-101.png"
+      "image": "assets/work/claude-101.png"
     },
     {
       "name": "Oracle Fusion AI Agent Studio Certified Foundations Associate",
       "issuer": "Oracle University",
       "year": "Sep 2025",
-      "image": "public/work/oracle-ai-agent.png"
+      "image": "assets/work/oracle-ai-agent.png"
     },
     {
       "name": "Machine Learning and Artificial Intelligence",
       "issuer": "IITG.ai Club, IIT Guwahati",
       "year": "",
-      "image": "public/work/iitg-ml.png"
+      "image": "assets/work/iitg-ml.png"
     }
   ],
   "skills": {
